@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            box-sizing: border-box;
+        }
+        .A
+        {
+            height: 500px;
+            width: 1000px;
+        }
+        .a
+        {
+            font-size: 25px;
+            font-weight: bold;
+        }
+       
+        .a1
+        {
+            font-size: 20px;
+            
+        }
+        .a2
+        {
+            font-size: 20px;
+            text-align: center;
+        }
+        .b
+        {
+            text-align: center;
+        }
+        .c
+        {
+            text-align: center;
+        }
+        .d
+        {
+            height: 50px; 
+            width:80px;
+            font-size: 30px;
+            /* border: none; */
+        }
+        .e
+        {
+            background-color: red; 
+            color:white;
+            /* border: none; */
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 20px;
+            height: 50px;
+            width: 100px;
+           
+        }
+        .f
+        {
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <table border="1" class="A">
+        <tr>
+            <td class="a">Product Info </td>
+            <td class="a"> Quantity</td>
+            <td class="a">Price(per unit))</td>
+            <td class="a">price(sub total)</td>
+            <td></td>
+         </tr>
+         <tr>
+            <td class="a1">Lorem ipsum dolor sit amet. </td>
+            <td class="b"> <input type="text" class="d" id="price" onkeyup="mul(),acb()"></td>
+            <!-- <td class="a2">$29.99</td> -->
+            <!-- <td class="a2"><input type="text" class="d" id="quantity" value=""></td> -->
+            <td class="a2" id="quantity">$20</td>
+            <td id="demo" class="f"></td>
+            <td class="c"><button class="e" id="remove" >REMOVE</button></td>
+         </tr>
+         <tr>
+            <td class="a1">Lorem ipsum dolor sit amet consectetur.</td>
+            <td class="b"> <input type="text" class="d" id="price1" onkeyup="mul1(),acb()"></td>
+            <td class="a2" id="quantity1">$20</td>
+            <td id="demo1" class="f"></td>
+            <td class="c"><button class="e" id="remove1">REMOVE</button></td>
+         </tr>
+         <tr >
+            <td>Total</td>
+            <td></td>
+            <td></td>
+            <td class="f" id="abhi"></td>
+            <td></td>
+         </tr>
+    </table>
+</body>
+</html>
+<script>
+//    var a=20
+
+
+    function mul()
+    {
+        var price = document.getElementById('price').value;
+        var quantity = document.getElementById('quantity').value;
+       
+
+      a=price*20;
+      document.getElementById('demo').innerHTML=a;
+      
+    }
+    function mul1()
+    {
+        var price = document.getElementById('price1').value;
+        var quantity = document.getElementById('quantity1').value;
+       
+
+      a=price*20;
+      document.getElementById('demo1').innerHTML=a;
+      
+    }
+    function acb()
+     {
+    var x = document.getElementById('price').value;
+    var y = document.getElementById('price1').value;
+    var sum = (x*20)+(y*20);
+    document.getElementById('abhi').innerHTML=sum;  
+       
+
+     }
+    
+    
+     const s = document.querySelector('remove');
+     addEventListener('click',remove);
+
+     function remove(){
+         document.getElementById("price").value='';
+         document.getElementById('abhi').value='';
+
+     }
+     
+   
+
+</script>
+

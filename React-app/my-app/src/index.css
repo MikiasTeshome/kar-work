@@ -1,0 +1,265 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.card-body
+{
+  background-color: antiquewhite;
+  /* height: 500px; */
+  width: 300px;
+  margin-bottom: 20px;
+}
+.card-body:hover
+{
+  transform: scale(1.05);
+}
+.card img
+{
+  height: 400px;
+}
+.demo{
+  border: 5px solid rgb(114, 114, 199);
+  margin: 20px;
+ 
+}
+.ab{
+  color: rgb(151, 80, 217); 
+  border-radius: 10px;
+   border: none;
+   height:50px;
+   width: 120px;
+  background-color:burlywood ;
+  font-size: larger;
+}
+.ab:hover{
+  transform: scale(1.05);
+  border: 5px solid rgb(230, 171, 7);
+background-color: blue;
+
+}
+.l1
+{
+  background-color: chartreuse;
+}
+
+
+.l2
+{
+  background-color: blue;
+}
+
+.main
+{
+display: flex;  
+justify-content: center;
+
+}
+.l3
+{
+  margin: 20px;
+}
+.l4
+{
+  margin: 20px;
+}
+.l5
+{
+  
+  display: flex;  
+justify-content: center;
+}
+.b1{
+  height: 30px;
+  width: 300px;
+  background-color: rgb(50, 50, 50);
+  color: white;
+}
+.aaa{
+  display: flex;
+}
+.ll3{
+  background: #f2eee3;
+  /* background-size: 0rem; */
+}
+
+
+/* live clock example analog */
+/* live clock example analog */
+/* live clock example analog */
+/* live clock example analog */
+.headind{
+background-color: rgb(93, 92, 92);
+}
+
+.headind1{
+  text-align: center;
+  font-size: larger;
+  font-family: 'Times New Roman', Times, serif;
+  color: antiquewhite;
+  /* background-color: rgb(87, 87, 87); */
+  margin-top: 10%;
+
+}
+.headind2{
+  text-align: center;
+  font-size: larger;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(248, 190, 114);
+  /* background-color: rgb(87, 87, 87); */
+}
+
+
+
+
+
+
+.clock {
+  width: 300px;
+  height: 300px;
+  
+  border-radius: 20%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 2px 30px rgba(0, 0, 0, 0.2);
+  font-size: 24px;
+  color: #444;
+  text-align: center;
+  background-color: bisque;
+  border: 5px solid black;
+  
+}
+
+.clock::after {
+  background: #aaa;
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #fff;
+}
+
+.hour_hand {
+  position: absolute;
+  width: 6px;
+  height: 60px;
+  background: #222;
+  top: 30%;
+  left: 49%;
+  transform-origin: bottom;
+}
+
+.min_hand {
+  position: absolute;
+  width: 4px;
+  height: 80px;
+  background: #444;
+  top: 22.5%;
+  left: 49%;
+  transform-origin: bottom;
+}
+
+.sec_hand {
+  position: absolute;
+  width: 2px;
+  height: 118px;
+  background: red;
+  top: 10.5%;
+  left: 49%;
+  transform-origin: bottom;
+}
+
+.clock span {
+  position: absolute;
+ 
+  font-family: "Times new roman";
+  font-weight: 700;
+  
+}
+
+.twelve {
+  top: 10px;
+  left: 46%;
+}
+
+.one {
+  top: 10%;
+  right: 26%;
+}
+
+.two {
+  top: 25%;
+  right: 10%;
+}
+
+.three {
+  right: 10px;
+  top: 46%;
+}
+
+.four {
+  right: 30px;
+  top: 67%;
+}
+
+.five {
+  right: 78px;
+  top: 80%;
+}
+
+.six {
+  bottom: 10px;
+  left: 50%;
+}
+
+.seven {
+  left: 80px;
+  top: 82%;
+}
+
+.eight {
+  left: 30px;
+  top: 67%;
+}
+
+.nine {
+  left: 10px;
+  top: 46%;
+}
+
+.ten {
+  top: 25%;
+  left: 10%;
+}
+
+.eleven {
+  top: 10%;
+  left: 26%;
+}
+/* live clock example analog */
+/* live clock example analog */
+/* live clock example analog */
+/* live clock example analog */
+
+
+
+
+/* slider css */
+/* slider css */
+/* slider css */
+/* slider css */

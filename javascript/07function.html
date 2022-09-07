@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Functions contains some functionality which is used repeataivly in ouur prog</p>
+    <ul>
+        <li>Built-in Function</li>
+        <li>User Defined Function
+            <ol>
+                <li>Without parameter</li>
+                <li>with Parameter</li>
+                <li>Default parameter</li>
+            </ol>
+        </li>
+    </ul>
+</body>
+</html>
+<script>
+    // alert();//buit-in function
+
+    //without para
+    function MyFunc()
+    {
+        let a = 10;
+        let b = 20;
+        console.log(a+b);
+    }
+    MyFunc();
+
+    //with para
+    function Name(fname,lname)
+    {
+        console.log("My first name is "+fname);
+        console.log("My last name is "+lname);
+    }
+    Name("Tops","Technologies");
+
+
+    //default para
+    function Addition(a,b=2)
+    {
+        console.log(a+b);
+    }
+    Addition(12,10);
+</script>

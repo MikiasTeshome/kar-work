@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+</body>
+</html>
+<script>
+    //if..else
+//====================================================================================
+
+    // const time = new Date().getHours();
+    // let day;
+    // if(time < 10)
+    // {
+    //     day = "Good morning";
+    // }
+    // else{
+    //     day = "Good Evening";
+    // }
+    // document.getElementById('demo').innerHTML=day;
+    
+
+
+    //else...if
+    //====================================================================================
+
+
+    // const time = new Date().getHours();
+    // let day;
+    // if(time < 10)
+    // {
+    //     day = "Good morning";
+    // }
+    // else if(time < 20)
+    // {
+    //     day = "Good Day!"
+    // }
+    // else{
+    //     day ="Good Evening!";
+    // }
+
+    // document.getElementById('demo').innerHTML=day;
+
+
+    // switch case
+    //====================================================================================
+
+    
+    let day;
+    const time = new Date().getDay();
+    switch(time)
+    {
+        case 0:
+            day = "sunday";
+            break;
+        case 1:
+            day ="Monday";
+            break;
+        case 2:
+            day = "Tuesday";
+            break;
+        case 3:
+            day = "Wednesday";
+            break;
+        case 4:
+            day ="Thursday";
+            break;
+        case 5:
+            day="friday";
+            break;
+        case 6:
+            day = "Saturday";
+            break; 
+    }
+    document.getElementById('demo').innerHTML="Today is "+day;
+</script>

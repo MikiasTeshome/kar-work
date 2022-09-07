@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <input type="text" name="val1" id="val1">
+    <input type="text" name="val2" id="val2">
+    <input type="button" name="sum" value="Sum" onclick="Addition()">
+</body>
+</html>
+<script>
+    // document.getElementById;
+    // document.getElementsByClassName;
+    // document.getElementsByName;
+    // document.getElementsByTagName;
+    // document.querySelector;
+    // document.querySelectorAll;
+
+    function Addition()
+    {
+    var a = document.getElementById('val1').value;
+    var b = document.getElementById('val2').value;
+    console.log(a);
+    console.log(b);
+
+    var sum = parseInt(a)+parseInt(b);
+    console.log(sum);
+    }
+</script>

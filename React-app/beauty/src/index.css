@@ -1,0 +1,838 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navlink {
+  text-decoration: none;
+  /* color: black; */
+}
+.navcolor {
+  background-color: transparent;
+  padding-top: 0px;
+  padding-bottom: 0;
+}
+.main123 {
+  background-image: url("D:\digal\React-app\beauty\public\img\main-bg.jpg");
+  background-size: 100% 100%;
+}
+.main1 {
+  height: 100vh;
+  width: 100%;
+  background-image: url("D:\digal\React-app\beauty\public\img\main-bg.jpg");
+  background-size: 100% 100%;
+  padding-top: 0;
+  position: relative;
+  padding-top: 150px;
+  padding-left: 150px;
+}
+.main1 .pro {
+  /* font-size: 70px;*/
+
+  font-family: Mrs Saint Delafield;
+  font-size: 70px;
+  text-transform: capitalize;
+  color: #d05278;
+  display: block;
+  margin: 0ch;
+}
+.img2 {
+  height: 100vh;
+  width: 30%;
+  background-image: url("D:\digal\React-app\beauty\public\img\main-block-decor.png");
+  background-size: 100% 100%;
+  position: absolute;
+  top: 250px;
+  left: 0%;
+}
+.main1 .bea {
+  font-family: Tenor Sans;
+  color: #222;
+  font-size: 100px;
+  margin-top: 0ch;
+  letter-spacing: 1px;
+  line-height: 100px;
+}
+.main1 .nou {
+  width: 465px;
+  font-size: 20px;
+  margin-top: 50px;
+  font-family: Tenor Sans;
+  padding-left: 10px;
+  color: #666;
+  font-weight: 400;
+  position: relative;
+  z-index: 2;
+}
+.btn1 {
+  height: 60px;
+  font-family: "Lato", sans-serif;
+  border: none;
+  background-color: black;
+  color: aliceblue;
+  margin: 60px 0px 0px 10px;
+  padding: 0px 50px;
+  position: relative;
+  z-index: 2;
+  transition: 0.3s;
+}
+.btn1:hover {
+  background-color: #666;
+}
+
+/* cosmatic */
+
+.cosmatic {
+  height: auto;
+  width: 100%;
+  /* background-color: #daccd0; */
+  padding-top: 200px;
+}
+.cos1 {
+  font-family: Mrs Saint Delafield;
+  font-size: 50px;
+  text-transform: capitalize;
+  color: #d05278;
+  display: block;
+  margin: 0ch;
+  text-align: center;
+}
+.trending {
+  text-align: center;
+  font-size: 54px;
+  line-height: 40px;
+  font-family: Tenor Sans;
+  text-transform: capitalize;
+}
+.cos2 {
+  text-align: center;
+  font-size: 16px;
+  font-family: Tenor Sans;
+  width: 500px;
+  margin: auto;
+  margin-top: 50px;
+  color: #666;
+}
+
+/* product */
+.item {
+  height: auto;
+  width: 100%;
+  margin-top: 70px;
+}
+.it1 {
+  text-align: center;
+}
+.it2 {
+  list-style: none;
+  line-height: 60px;
+  display: inline;
+  background: #faf9ff;
+  border: 1px solid #eee;
+  padding: 10px 30px;
+  margin: 0px 10px;
+}
+.it3 {
+  text-decoration: none;
+  color: #666;
+  font-size: 16px;
+  cursor: pointer;
+}
+.item ul li:hover {
+  background-color: #d05278;
+}
+
+.it2:hover .it3 {
+  color: #eee;
+}
+
+.sale {
+  height: auto;
+  width: 100%;
+  padding: 0px 100px;
+  display: flex;
+}
+.sale1 {
+  height: 750px;
+  width: 23%;
+  margin: auto;
+  
+}
+.sal1 {
+  background-image: url("D:\digal\React-app\beauty\public\img\product-img1.jpg");
+  background-size: 100% 100%;
+  height: 600px;
+  width: 100%;
+  
+  
+}
+
+.sal1:hover
+{
+  opacity: 0.6;
+  
+}
+
+.sal1a {
+  background-image: url("D:\digal\React-app\beauty\public\img\product-img2.jpg");
+  background-size: 100% 100%;
+  height: 600px;
+  width: 100%;
+}
+.sal1a:hover
+{
+  opacity: 0.6;
+  
+}
+.sal1b {
+  background-image: url("D:\digal\React-app\beauty\public\img\product-img3.jpg");
+  background-size: 100% 100%;
+  height: 600px;
+  width: 100%;
+}
+.sal1b:hover
+{
+  opacity: 0.6;
+  
+}
+.sal1c {
+  background-image: url("D:\digal\React-app\beauty\public\img\product-img4.jpg");
+  background-size: 100% 100%;
+  height: 600px;
+  width: 100%;
+}
+.sal1c:hover
+{
+  opacity: 0.6;
+  
+}
+.sal2 {
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.sa1 {
+  font-size: 24px;
+  font-family: Tenor Sans;
+  color: #222;
+}
+.sa2 {
+  font-size: 20px;
+  color: #666666;
+  font-weight: 600;
+}
+.sa2 del {
+  font-size: 18px;
+  color: #999999;
+  font-weight: 500;
+}
+.new {
+  height: 35px;
+  width: 70px;
+  background-color: #a3d2a2;
+  text-align: center;
+  line-height: 35px;
+  margin-left: auto;
+  color: #faf9ff;
+  font-family: Lato;
+  font-weight: 700;
+}
+
+/* brand logo */
+
+.brand {
+  display: grid;
+  padding: 0px 100px 0px 100px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 200px;
+}
+.brand1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* discount */
+
+.discount {
+  background-image: url("https://beshop-demo.vercel.app/assets/img/discount-bg.jpg");
+  height: 110vh;
+  width: 100%;
+  background-size: 100% 100%;
+  display: flex;
+  padding-top: 200px;
+}
+.dis1 {
+  height: 110vh;
+  width: 50%;
+  background-color: transparent;
+}
+.dis2 {
+  height: 110vh;
+  width: 50%;
+  background-color: transparent;
+}
+.dis1a {
+  font-family: Mrs Saint Delafield;
+  font-size: 50px;
+  text-transform: capitalize;
+  color: #d05278;
+  display: block;
+  margin: 0ch;
+}
+.dis1b {
+  font-family: Tenor Sans;
+  color: #222;
+  font-size: 100px;
+  line-height: 100px;
+}
+.dis1c {
+  width: 465px;
+  font-size: 20px;
+  /* margin-top: 50px; */
+  font-family: Tenor Sans;
+  padding-left: 10px;
+  color: #666;
+  font-weight: 400;
+}
+.dis1b span {
+  color: #d05278;
+  background-image: url("https://beshop-demo.vercel.app/assets/img/main-text-decor.png");
+  background-size: 100% 100%;
+}
+
+.nqn {
+  height: 350px;
+  width: 100%;
+  padding: 0px 100px;
+  display: flex;
+  margin: 0px 0px;
+}
+.nqn1 {
+  height: 350px;
+}
+.nqn1a {
+  height: 200px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.nqn1a img {
+  height: 100px;
+  width: 100px;
+}
+.nqn1a .img1 {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.nqn1b {
+  height: 150px;
+  font-weight: 400;
+  font-family: Tenor Sans;
+  text-transform: capitalize;
+  text-align: center;
+  margin: auto;
+}
+.nqn1b h3 {
+  color: #222;
+}
+.nqn1b p {
+  color: #666666;
+}
+
+/* Popular collection */
+
+.popular {
+  /* background-color: #666; */
+  /* height: 400px; */
+  width: 100%;
+  text-align: center;
+}
+.pop1 {
+  font-family: Mrs Saint Delafield;
+  font-size: 50px;
+  color: #d05278;
+}
+.pop2 {
+  color: #222;
+  font-size: 50px;
+  font-weight: 400;
+  font-family: Tenor Sans;
+}
+.pop3 {
+  font-size: 16px;
+
+  color: #666;
+  font-weight: 400;
+  font-family: Lato, sans-serif;
+}
+
+/* three images three images  three images  three images three images three images*/
+
+.pic {
+  height: auto;
+  width: 100%;
+  margin-top: 80px;
+  display: flex;
+}
+.pic1 {
+  height: 730px;
+  width: 30%;
+  /* margin-right: 30px; */
+  margin: auto;
+}
+
+.pic1 img {
+  width: 100%;
+  height: 100%;
+}
+/* For images For images For images For images For images For images For images */
+.four {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.four1 {
+  height: 110vh;
+  width: 50%;
+  background-image: url("https://beshop-demo.vercel.app/assets/img/info-item-img1.jpg");
+  background-size: 100% 100%;
+}
+.four2 {
+  background-image: url("https://beshop-demo.vercel.app/assets/img/info-item-bg1.jpg");
+  height: 110vh;
+  width: 50%;
+  /* background-position: 100% 100%; */
+  background-size: 100% 100%;
+  padding: 80px 100px;
+}
+.four2a {
+  font-family: Mrs Saint Delafield;
+  font-size: 50px;
+  color: #d05278;
+}
+.four2b {
+  color: #222;
+  font-size: 50px;
+  font-weight: 400;
+  font-family: Tenor Sans;
+}
+.four2c {
+  font-size: 20px;
+  color: #666;
+  display: block;
+  width: 456px;
+  font-family: Tenor Sans;
+  margin-top: 15px;
+}
+.four2d {
+  font-size: 16px;
+  color: #666;
+  display: block;
+  width: 456px;
+  font-family: Tenor Sans;
+}
+
+.for {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.for1 {
+  background-image: url("https://beshop-demo.vercel.app/assets/img/info-item-bg2.jpg");
+  background-size: 100% 100%;
+  height: 110vh;
+  width: 50%;
+  padding: 220px 10px 0 223px;
+}
+.for1a {
+  font-family: Mrs Saint Delafield;
+  font-size: 50px;
+  color: #d05278;
+  line-height: 20px;
+}
+.for1b {
+  color: #222;
+  font-size: 50px;
+  font-weight: 400;
+  font-family: Tenor Sans;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+.for1c {
+  font-size: 20px;
+  color: #666;
+  display: block;
+  width: 456px;
+  font-family: Tenor Sans;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+.for1d {
+  font-size: 16px;
+  color: #666;
+  display: block;
+  width: 456px;
+  font-family: Tenor Sans;
+}
+.for1e {
+  /* background-color: rgb(241, 4, 4); */
+  height: 40px;
+  width: 350px;
+  display: flex;
+}
+.for1ea {
+  color: black;
+  width: 50px;
+}
+.for1eb {
+  color: black;
+  width: 200px;
+  font-family: Lato, sans-serif;
+}
+.for1ec {
+  color: black;
+  width: 100px;
+}
+.for2 {
+  height: 110vh;
+  width: 50%;
+  background-color: #666666;
+}
+
+/* cosmatic coamatic */
+.beshop {
+  background-image: url(https://beshop-demo.vercel.app/assets/img/product-img5.jpg);
+}
+.popular1 {
+  margin: 100px 0 0 0;
+}
+.popa {
+  line-height: 10px;
+}
+
+/* our blogs our blogs our blogs our blogs */
+
+.our {
+  height: auto;
+  width: 100%;
+  padding: 0px 200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.our1 {
+  height: 500px;
+  width: 48%;
+  margin: auto;
+}
+.our1a {
+  height: 300px;
+  width: 100%;
+}
+.our1b {
+  height: 200px;
+  width: 100%;
+}
+.our1ba {
+  font-size: 24px;
+  color: #222;
+  font-family: Tenor Sans;
+}
+.our1bb {
+  font-size: 16px;
+  color: #666;
+  font-family: Tenor Sans;
+}
+.our1bc {
+  color: #d05278;
+}
+.readblog {
+  height: 60px;
+  width: 100%;
+  text-align: center;
+}
+.btn2 {
+  margin: 0;
+}
+
+/* input type image */
+
+.stay {
+  height: auto;
+  width: 80%;
+  background-color: #fcedea;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 150px auto;
+}
+.stay1 {
+  height: 300px;
+  width: 40%;
+  position: relative;
+}
+.stay2 {
+  height: 300px;
+  width: 60%;
+  padding-top: 50px;
+}
+.stay2 input {
+  height: 60px;
+  width: 350px;
+  border: none;
+  position: relative;
+  z-index: 1;
+}
+.stay1 .imgstay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+.stay2a {
+  font-size: 40px;
+  color: #222;
+  font-family: Tenor Sans;
+}
+.stay2b {
+  font-size: 16px;
+  color: #666;
+  font-family: Tenor Sans;
+}
+
+/* image six class name */
+.six {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 300px;
+}
+.six2 {
+  height: 100%;
+  width: 100%;
+  
+}
+
+
+.six2:hover  {
+
+  transform: scale(1.10);
+}
+
+/* footer footer footer footer */
+/* footer footer footer footer */
+/* footer footer footer footer */
+/* footer footer footer footer */
+.footer {
+  height: auto;
+  width: 100%;
+  background-color: #222;
+}
+.footer-icon1 {
+  height: auto;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.footer-icon-imagea {
+  height: 100px;
+  width: 30%;
+text-align: center;
+  margin: auto;
+}
+.footer-icon-imageb {
+  height: 100px;
+  width: 30%;
+
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-icon-imagec {
+  height: 100px;
+  width: 30%;
+  text-align: center;
+  margin: auto;
+}
+
+
+.footer-icon2 {
+  height: auto;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  border-bottom: 0.2px solid #666;
+  border-top: 0.2px solid #666;
+}
+.footer-about {
+  height: 250px;
+  width: 19%;
+  margin: auto;
+}
+.footer-categories {
+  height: 250px;
+  width: 19%;
+  margin: auto;
+}
+.footer-useful-link {
+  height: 250px;
+  width: 19%;
+  margin: auto;
+}
+.footer-contact {
+  height: 250px;
+  width: 19%;
+  margin: auto;
+}
+
+.footer-about p {
+  text-align: left;
+  color: white;
+  font-family: Tenor Sans;
+  font-size: 24px;
+}
+.footer-categories p {
+  text-align: left;
+  color: white;
+  font-family: Tenor Sans;
+  font-size: 24px;
+}
+.footer-useful-link p {
+  text-align: left;
+  color: white;
+  font-family: Tenor Sans;
+  font-size: 24px;
+}
+.footer-contact p {
+  text-align: left;
+  color: white;
+  font-family: Tenor Sans;
+  /* font-size: 24px; */
+}
+
+.footer-about li a {
+  text-align: left;
+  color: white;
+  font-family: Tenor Sans;
+  font-size: 16px;
+  text-decoration: none;
+}
+.footer-categories li a {
+  text-align: left;
+  color: white;
+  font-family: Tenor Sans;
+  font-size: 16px;
+  text-decoration: none;
+}
+.footer-useful-link li a {
+  text-align: left;
+  color: white;
+  font-family: Tenor Sans;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.span1 {
+  color: #666;
+  font-size: 15px;
+}
+.fain {
+  font-size: 30px;
+  letter-spacing: 0.5rem;
+  padding: 0px 10px;
+  color: #666666;
+}
+
+/* .fain:hover  {
+
+ color: #eee;
+} */
+.fa-facebook-official:hover{
+  font-size: 35px;
+ color: #eee;
+}
+.fa-twitter-square:hover{
+  font-size: 35px;
+  color: #eee;
+}
+.fa-instagram:hover{
+  font-size: 35px;
+  color: #eee;
+}
+.fa-linkedin-square:hover{
+  font-size: 35px;
+  color: #eee;
+}
+
+
+
+
+.all {
+  height: 40px;
+  width: 100%;
+  text-align: center;
+}
+.all p {
+  color: #666;
+}
+.span-image {
+  height: 30px;
+  width: 96%;
+  margin: auto;
+  margin-top: 10px;
+  display: flex;
+}
+.span-image1 {
+  margin: auto;
+}
+.span-image1:hover{
+  transform: scale(1.50);
+}
+.footer-about ul li {
+  list-style-type: square;
+  color: white;
+}
+.footer-categories ul li {
+  list-style-type: square;
+  color: white;
+}
+.footer-useful-link ul li {
+  list-style-type: square;
+  color: white;
+}
+.p1 {
+  font-size: 16px;
+}
+.p3 {
+  font-size: 24px;
+}
+.p4 {
+  font-size: 20px;
+}
